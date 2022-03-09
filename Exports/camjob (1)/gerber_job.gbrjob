@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2022-03-09T19:55:17Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.6.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "semi-controlled-rectifier-breakout-board"
+        },
+        "Owner": "Alexandra Steiner <asteine8@gmail.com>",
+        "Size": {
+            "X": 118.1128,
+            "Y": 165.1
+        }
+    }
+}

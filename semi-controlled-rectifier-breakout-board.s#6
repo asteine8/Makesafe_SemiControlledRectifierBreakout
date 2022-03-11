@@ -5285,14 +5285,14 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="U11" library="RectifierParts" deviceset="VO3053-X007T" device=""/>
 <part name="R6A" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2"/>
 <part name="R6B" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2"/>
-<part name="R20A" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3"/>
-<part name="R20B" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3"/>
 <part name="X1" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2031" device="" package3d_urn="urn:adsk.eagle:package:8078634/1"/>
 <part name="U$1" library="RectifierParts" deviceset="90MIL_TERMINAL" device=""/>
 <part name="U$2" library="RectifierParts" deviceset="90MIL_TERMINAL" device=""/>
 <part name="U$3" library="RectifierParts" deviceset="90MIL_TERMINAL" device=""/>
 <part name="U$4" library="RectifierParts" deviceset="90MIL_TERMINAL" device=""/>
 <part name="U$5" library="RectifierParts" deviceset="1000MIL_JUMPER" device=""/>
+<part name="R20A" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2"/>
+<part name="R20B" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2"/>
 </parts>
 <sheets>
 <sheet>
@@ -5339,14 +5339,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <attribute name="NAME" x="146.05" y="14.1986" size="1.778" layer="95"/>
 <attribute name="VALUE" x="146.05" y="9.398" size="1.778" layer="96"/>
 </instance>
-<instance part="R20A" gate="G$1" x="83.82" y="-45.72" smashed="yes">
-<attribute name="NAME" x="80.01" y="-44.2214" size="1.778" layer="95"/>
-<attribute name="VALUE" x="80.01" y="-49.022" size="1.778" layer="96"/>
-</instance>
-<instance part="R20B" gate="G$1" x="83.82" y="-58.42" smashed="yes">
-<attribute name="NAME" x="80.01" y="-56.9214" size="1.778" layer="95"/>
-<attribute name="VALUE" x="80.01" y="-61.722" size="1.778" layer="96"/>
-</instance>
 <instance part="X1" gate="-1" x="195.58" y="-55.88" smashed="yes">
 <attribute name="NAME" x="198.12" y="-56.642" size="1.524" layer="95"/>
 </instance>
@@ -5369,6 +5361,14 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <attribute name="NAME" x="198.12" y="-48.26" size="1.27" layer="95" ratio="6"/>
 </instance>
 <instance part="U$5" gate="A" x="137.16" y="12.7" smashed="yes" rot="R90"/>
+<instance part="R20A" gate="G$1" x="83.82" y="-45.72" smashed="yes">
+<attribute name="NAME" x="80.01" y="-44.2214" size="1.778" layer="95"/>
+<attribute name="VALUE" x="80.01" y="-49.022" size="1.778" layer="96"/>
+</instance>
+<instance part="R20B" gate="G$1" x="83.82" y="-58.42" smashed="yes">
+<attribute name="NAME" x="80.01" y="-56.9214" size="1.778" layer="95"/>
+<attribute name="VALUE" x="80.01" y="-61.722" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -5475,15 +5475,15 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <net name="N$7" class="0">
 <segment>
 <pinref part="U11" gate="B" pin="C"/>
-<pinref part="R20A" gate="G$1" pin="2"/>
 <wire x1="93.98" y1="-45.72" x2="88.9" y2="-45.72" width="0.1524" layer="91"/>
+<pinref part="R20A" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
 <pinref part="U10" gate="B" pin="C"/>
-<pinref part="R20B" gate="G$1" pin="2"/>
 <wire x1="93.98" y1="-58.42" x2="88.9" y2="-58.42" width="0.1524" layer="91"/>
+<pinref part="R20B" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="+5VDC" class="0">
@@ -5505,14 +5505,14 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </net>
 <net name="PHASE_CONTROL_SIGNAL" class="0">
 <segment>
-<pinref part="R20B" gate="G$1" pin="1"/>
 <wire x1="78.74" y1="-58.42" x2="76.2" y2="-58.42" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="-58.42" x2="76.2" y2="-45.72" width="0.1524" layer="91"/>
-<pinref part="R20A" gate="G$1" pin="1"/>
 <wire x1="76.2" y1="-45.72" x2="78.74" y2="-45.72" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="-45.72" x2="68.58" y2="-45.72" width="0.1524" layer="91"/>
 <junction x="76.2" y="-45.72"/>
 <label x="68.58" y="-45.72" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="R20A" gate="G$1" pin="1"/>
+<pinref part="R20B" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="X1" gate="-2" pin="S"/>

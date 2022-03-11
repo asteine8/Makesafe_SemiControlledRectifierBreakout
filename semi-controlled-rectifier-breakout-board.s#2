@@ -181,8 +181,8 @@
 <text x="-3.2766" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Name</text>
 </package>
 <package name="DIO_RFN10N_ROM-M">
-<smd name="1" x="-2.8956" y="-8.3693" dx="0.8382" dy="2.2098" layer="1"/>
-<smd name="2" x="2.8956" y="-8.3693" dx="0.8382" dy="2.2098" layer="1"/>
+<smd name="1" x="-2.8956" y="-8.3693" dx="1.3208" dy="2.2098" layer="1"/>
+<smd name="2" x="2.8956" y="-8.3693" dx="1.3208" dy="2.2098" layer="1"/>
 <smd name="3" x="0" y="1.3716" dx="10.2108" dy="10.0076" layer="1"/>
 <wire x1="-2.4892" y1="-4.4958" x2="-3.302" y2="-4.4958" width="0.1524" layer="51"/>
 <wire x1="-3.302" y1="-4.4958" x2="-3.2766" y2="-8.9154" width="0.1524" layer="51"/>

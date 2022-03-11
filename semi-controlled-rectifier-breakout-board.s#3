@@ -458,10 +458,10 @@
 <text x="-3.40605" y="4.808540625" size="1.272259375" layer="25">&gt;NAME</text>
 <text x="-3.70293125" y="-6.2049" size="1.271" layer="27">&gt;VALUE</text>
 <smd name="1" x="-4.7" y="2.54" dx="1.7" dy="1.45" layer="1"/>
-<smd name="2" x="-4.7" y="0" dx="1.7" dy="1.1452" layer="1"/>
+<smd name="2" x="-4.7" y="0" dx="1.7" dy="1.45" layer="1"/>
 <smd name="3" x="-4.7" y="-2.54" dx="1.7" dy="1.45" layer="1"/>
 <smd name="4" x="4.7" y="-2.54" dx="1.7" dy="1.45" layer="1" rot="R180"/>
-<smd name="5" x="4.7" y="0" dx="1.7" dy="1.45" layer="1" rot="R180"/>
+<smd name="5" x="4.7" y="0" dx="1.7" dy="1.0182" layer="1" rot="R180"/>
 <smd name="6" x="4.7" y="2.54" dx="1.7" dy="1.45" layer="1" rot="R180"/>
 </package>
 <package name="90MIL_TERMINAL">

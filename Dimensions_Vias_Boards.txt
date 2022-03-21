@@ -1,0 +1,9 @@
+FR-4 2oz copper 4x6 in
+- Board is 0.063 in thick
+- Copper is 0.0028 in thick
+
+0.04 in Via
+- ~0.08in depth
+
+0.08 in Via
+- ~0.12 in depth

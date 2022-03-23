@@ -255,7 +255,9 @@
 <text x="19.05" y="91.44" size="3.048" layer="49" font="vector" ratio="20">DC+</text>
 <text x="31.242" y="134.747" size="3.048" layer="49" font="vector" ratio="20">DC-</text>
 <text x="19.05" y="123.19" size="3.048" layer="49" font="vector" ratio="20" rot="R180">P1f</text>
-<text x="49.53" y="120.65" size="3.048" layer="49" font="vector" ratio="20">P2</text>
+<text x="53.848" y="123.19" size="3.048" layer="49" font="vector" ratio="20" rot="R180">P2</text>
+<text x="55.88" y="69.85" size="2.54" layer="49" font="vector" ratio="25">phase</text>
+<text x="55.88" y="73.66" size="2.54" layer="49" font="vector" ratio="25">+5V</text>
 </plain>
 <libraries>
 <library name="RectifierParts">

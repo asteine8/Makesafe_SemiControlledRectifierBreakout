@@ -688,8 +688,8 @@ type 0204, grid 7.5 mm</description>
 <wire x1="-2.54" y1="0" x2="-2.54" y2="0.889" width="0.254" layer="94"/>
 <wire x1="-5.08" y1="0" x2="-2.54" y2="0" width="0.1524" layer="94"/>
 <wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.1524" layer="94"/>
-<pin name="P$1" x="-5.08" y="0" length="point" rot="R180"/>
-<pin name="P$2" x="5.08" y="0" length="point"/>
+<pin name="P$1" x="-5.08" y="0" visible="off" length="point" rot="R180"/>
+<pin name="P$2" x="5.08" y="0" visible="off" length="point"/>
 <text x="-4.318" y="2.032" size="1.778" layer="95">&gt;Name</text>
 <text x="-4.318" y="-3.556" size="1.778" layer="96">&gt;Value</text>
 </symbol>
@@ -5712,8 +5712,8 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="U$5" library="RectifierParts" deviceset="1000MIL_JUMPER" device=""/>
 <part name="R20A" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2"/>
 <part name="R20B" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2"/>
-<part name="R6A" library="RectifierParts" deviceset="TH_RESISTOR" device=""/>
-<part name="R6B" library="RectifierParts" deviceset="TH_RESISTOR" device=""/>
+<part name="R6A" library="RectifierParts" deviceset="TH_RESISTOR" device="" value="180"/>
+<part name="R6B" library="RectifierParts" deviceset="TH_RESISTOR" device="" value="180"/>
 <part name="D1" library="adafruit" deviceset="DIODE" device="DO-1N4148"/>
 <part name="D2" library="adafruit" deviceset="DIODE" device="DO-1N4148"/>
 </parts>

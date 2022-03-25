@@ -750,9 +750,10 @@ design rules under a new name.</description>
 <vertex x="48.26" y="106.68"/>
 <vertex x="38.1" y="106.68"/>
 </polygon>
-<via x="40.64" y="119.38" extent="1-16" drill="2.032"/>
-<via x="45.72" y="119.38" extent="1-16" drill="2.032"/>
-<wire x1="45.72" y1="119.38" x2="43.307" y2="111.7346" width="0" layer="19" extent="1-1"/>
+<via x="46.482" y="119.126" extent="1-16" drill="2.032" diameter="3.429"/>
+<via x="40.132" y="119.126" extent="1-16" drill="2.032" diameter="3.429"/>
+<via x="43.307" y="121.285" extent="1-16" drill="2.032" diameter="3.429"/>
+<wire x1="43.307" y1="121.285" x2="43.18" y2="128.1684" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="P1_FUSED">
 <contactref element="U8" pad="3"/>
@@ -774,10 +775,11 @@ design rules under a new name.</description>
 <vertex x="30.48" y="106.68"/>
 <vertex x="20.32" y="106.68"/>
 </polygon>
-<via x="27.94" y="119.38" extent="1-16" drill="2.032"/>
-<via x="22.86" y="119.38" extent="1-16" drill="2.032"/>
+<via x="28.575" y="118.999" extent="1-16" drill="2.032" diameter="3.429"/>
+<via x="22.225" y="118.999" extent="1-16" drill="2.032" diameter="3.429"/>
+<via x="25.4" y="121.158" extent="1-16" drill="2.032" diameter="3.429"/>
 <wire x1="25.4" y1="111.8616" x2="25.4" y2="112.268" width="0" layer="19" extent="1-1"/>
-<wire x1="22.86" y1="119.38" x2="25.4" y2="112.268" width="0" layer="19" extent="1-1"/>
+<wire x1="25.4" y1="121.158" x2="25.4" y2="128.1684" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DC+">
 <contactref element="U8" pad="1"/>

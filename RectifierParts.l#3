@@ -556,7 +556,7 @@
 <pad name="1" x="-12.7" y="0" drill="2.286" diameter="3.81"/>
 <pad name="2" x="12.7" y="0" drill="2.286" diameter="3.81"/>
 </package>
-<package name="0204/7_THRES">
+<package name="0204/7_TH">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 type 0204, grid 7.5 mm</description>
 <wire x1="3.81" y1="0" x2="2.921" y2="0" width="0.508" layer="51"/>
@@ -854,10 +854,26 @@ type 0204, grid 7.5 mm</description>
 <gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="0204/7_THRES">
+<device name="" package="0204/7_TH">
 <connects>
 <connect gate="G$1" pin="P$1" pad="P$1"/>
 <connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DIODE">
+<gates>
+<gate name="G$1" symbol="DIODE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0204/7_TH">
+<connects>
+<connect gate="G$1" pin="A" pad="P$1"/>
+<connect gate="G$1" pin="C" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>

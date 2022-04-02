@@ -844,6 +844,10 @@ type 0204, grid 7.5 mm</description>
 </gates>
 <devices>
 <device name="" package="0204/7_THRES">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>

@@ -870,7 +870,11 @@ type 0204, grid 7.5 mm</description>
 <gate name="G$1" symbol="DIODE" x="0" y="0"/>
 </gates>
 <devices>
-<device name="">
+<device name="" package="0204/7_TH">
+<connects>
+<connect gate="G$1" pin="A" pad="P$1"/>
+<connect gate="G$1" pin="C" pad="P$2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>

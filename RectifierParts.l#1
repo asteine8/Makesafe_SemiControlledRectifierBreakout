@@ -286,7 +286,7 @@
 <wire x1="5.1816" y1="-4.6228" x2="5.1816" y2="-3.9624" width="0.1524" layer="21"/>
 <wire x1="-5.1816" y1="-3.9624" x2="-5.1816" y2="-4.6228" width="0.1524" layer="21"/>
 <text x="-7.0104" y="-8.9916" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
-<text x="-1.7272" y="-0.635" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Value</text>
+<text x="-6.8072" y="8.255" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Value</text>
 <wire x1="0" y1="4.4958" x2="7.5946" y2="4.4958" width="0.1524" layer="47"/>
 <wire x1="0" y1="-4.4958" x2="7.5946" y2="-4.4958" width="0.1524" layer="47"/>
 <wire x1="7.5946" y1="-4.4958" x2="7.9756" y2="-4.4958" width="0.1524" layer="47"/>

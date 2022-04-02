@@ -1117,6 +1117,12 @@ design rules under a new name.</description>
 <vertex x="116.84" y="88.9"/>
 <vertex x="116.84" y="101.6"/>
 </polygon>
+<polygon width="0.1524" layer="1">
+<vertex x="16.51" y="101.6"/>
+<vertex x="16.51" y="93.98"/>
+<vertex x="27.94" y="82.55"/>
+<vertex x="27.94" y="101.6"/>
+</polygon>
 </signal>
 </signals>
 <mfgpreviewcolors>

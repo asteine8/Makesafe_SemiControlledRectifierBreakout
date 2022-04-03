@@ -8,7 +8,7 @@
 </settings>
 <grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -1094,6 +1094,22 @@ design rules under a new name.</description>
 <wire x1="45.72" y1="78.74" x2="46.863" y2="77.597" width="1.27" layer="1"/>
 <wire x1="61.214" y1="77.597" x2="63.754" y2="75.057" width="1.27" layer="1"/>
 <wire x1="61.214" y1="77.597" x2="46.863" y2="77.597" width="1.27" layer="1"/>
+</signal>
+<signal name="NC">
+<polygon width="0.1524" layer="16">
+<vertex x="92.71" y="97.79"/>
+<vertex x="116.84" y="97.79"/>
+<vertex x="116.84" y="71.12"/>
+<vertex x="110.49" y="71.12"/>
+<vertex x="92.71" y="88.9"/>
+</polygon>
+<polygon width="0.1524" layer="1">
+<vertex x="92.71" y="97.79"/>
+<vertex x="116.84" y="97.79"/>
+<vertex x="116.84" y="78.74"/>
+<vertex x="106.68" y="78.74"/>
+<vertex x="92.71" y="92.71"/>
+</polygon>
 </signal>
 </signals>
 <mfgpreviewcolors>

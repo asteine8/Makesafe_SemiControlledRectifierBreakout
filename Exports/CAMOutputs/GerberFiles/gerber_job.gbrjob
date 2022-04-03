@@ -1,7 +1,7 @@
 {
     "Header": {
         "Comment": "All values are metric (mm)",
-        "CreationDate": "2022-03-25T20:25:58Z",
+        "CreationDate": "2022-04-03T20:09:09Z",
         "GenerationSoftware": {
             "Application": "EAGLE",
             "Vendor": "Autodesk",
@@ -13,12 +13,12 @@
         "BoardThickness": 1.57,
         "LayerNumber": 2,
         "Name": {
-            "ProjectId": "semi-controlled-rectifier-breakout-board"
+            "ProjectId": "semi-controlled-rectifier-breakout-board_THERMAL_REWORK"
         },
         "Owner": "Alexandra Steiner <asteine8@gmail.com>",
         "Size": {
-            "X": 118.1128,
-            "Y": 165.1
+            "X": 152.4,
+            "Y": 101.6
         }
     }
 }

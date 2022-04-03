@@ -85,7 +85,7 @@
                         46
                     ],
                     "milling": false,
-                    "name": "",
+                    "name": "Milling",
                     "polarity": "positive",
                     "type": "gerber_layer"
                 },
@@ -150,7 +150,7 @@
             ]
         }
     ],
-    "timestamp": "2022-03-10T22:40:33",
+    "timestamp": "2022-04-02T15:29:08",
     "type": "EAGLE CAM job",
     "units": "metric",
     "version": "9.2.0"
